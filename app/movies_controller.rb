@@ -20,8 +20,8 @@ def can_be_created_with_a_hash_of_attributes
       lead: "Paul Newman",
       in_theaters: false
   }
-  movie = Movie.new(attributes)
-end
+  movie = Movie.create(attributes)
+=end
 
 def can_be_created_in_a_block(args = __)
   # If no arguments are passed, use default values:
